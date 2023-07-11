@@ -5,6 +5,7 @@ import numpy as np
 from tqdm import tqdm
 import open3d as o3d
 import sys
+import argparse
 import datetime
 from torch.utils.data import DataLoader, Dataset
 from torch.utils.tensorboard import SummaryWriter
@@ -19,12 +20,30 @@ writer = SummaryWriter(f'runs/data_visualization_{current_time}')
 # device
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-# Hyperparameters
+
+# Hyperparameters Defaults
 num_points = 1024 # do not change this value
 train_ratio = 0.8
 num_classes = 2
 max_epochs = 20
 batch_size = 8
+
+# Get the hyperparameters from the command line
+parser = argparse.ArgumentParser()
+parser.add_argument('--train_ratio', type=float, default=train_ratio)
+parser.add_argument('--num_classes', type=int, default=num_classes)
+parser.add_argument('--max_epochs', type=int, default=max_epochs)
+parser.add_argument('--batch_size', type=int, default=batch_size)
+args = parser.parse_args()
+
+# Set the hyperparameters
+train_ratio = args.train_ratio
+num_classes = args.num_classes
+max_epochs = args.max_epochs
+batch_size = args.batch_size
+
+# Format for running the script
+# python simple_train.py --train_ratio 0.8 --num_classes 2 --max_epochs 20 --batch_size 8
 
 # Save the hyperparameters to tensorboard
 writer.add_hparams(

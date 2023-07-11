@@ -52,6 +52,8 @@ def preprocessing(point_cloud, labels, num_points,batch_size,  train_ratio):
 
     return train_dataloader, test_dataloader
 
+
+
 # SAMPLE USAGE 
 # # Read point cloud data and labels from file
 # # There in a large pointcloud in the file 
