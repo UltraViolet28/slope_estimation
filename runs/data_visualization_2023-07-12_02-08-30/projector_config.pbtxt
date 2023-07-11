@@ -1,0 +1,200 @@
+embeddings {
+  tensor_name: "training data:00000"
+  metadata_path: "00000/training data/metadata.tsv"
+  tensor_path: "00000/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00001"
+  metadata_path: "00001/training data/metadata.tsv"
+  tensor_path: "00001/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00002"
+  metadata_path: "00002/training data/metadata.tsv"
+  tensor_path: "00002/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00003"
+  metadata_path: "00003/training data/metadata.tsv"
+  tensor_path: "00003/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00004"
+  metadata_path: "00004/training data/metadata.tsv"
+  tensor_path: "00004/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00005"
+  metadata_path: "00005/training data/metadata.tsv"
+  tensor_path: "00005/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00006"
+  metadata_path: "00006/training data/metadata.tsv"
+  tensor_path: "00006/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00007"
+  metadata_path: "00007/training data/metadata.tsv"
+  tensor_path: "00007/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00008"
+  metadata_path: "00008/training data/metadata.tsv"
+  tensor_path: "00008/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00009"
+  metadata_path: "00009/training data/metadata.tsv"
+  tensor_path: "00009/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00010"
+  metadata_path: "00010/training data/metadata.tsv"
+  tensor_path: "00010/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00011"
+  metadata_path: "00011/training data/metadata.tsv"
+  tensor_path: "00011/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00012"
+  metadata_path: "00012/training data/metadata.tsv"
+  tensor_path: "00012/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00013"
+  metadata_path: "00013/training data/metadata.tsv"
+  tensor_path: "00013/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00014"
+  metadata_path: "00014/training data/metadata.tsv"
+  tensor_path: "00014/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00015"
+  metadata_path: "00015/training data/metadata.tsv"
+  tensor_path: "00015/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00016"
+  metadata_path: "00016/training data/metadata.tsv"
+  tensor_path: "00016/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00017"
+  metadata_path: "00017/training data/metadata.tsv"
+  tensor_path: "00017/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00018"
+  metadata_path: "00018/training data/metadata.tsv"
+  tensor_path: "00018/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00019"
+  metadata_path: "00019/training data/metadata.tsv"
+  tensor_path: "00019/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00020"
+  metadata_path: "00020/training data/metadata.tsv"
+  tensor_path: "00020/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00021"
+  metadata_path: "00021/training data/metadata.tsv"
+  tensor_path: "00021/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00022"
+  metadata_path: "00022/training data/metadata.tsv"
+  tensor_path: "00022/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00023"
+  metadata_path: "00023/training data/metadata.tsv"
+  tensor_path: "00023/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00024"
+  metadata_path: "00024/training data/metadata.tsv"
+  tensor_path: "00024/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00025"
+  metadata_path: "00025/training data/metadata.tsv"
+  tensor_path: "00025/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00026"
+  metadata_path: "00026/training data/metadata.tsv"
+  tensor_path: "00026/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00027"
+  metadata_path: "00027/training data/metadata.tsv"
+  tensor_path: "00027/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00028"
+  metadata_path: "00028/training data/metadata.tsv"
+  tensor_path: "00028/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00029"
+  metadata_path: "00029/training data/metadata.tsv"
+  tensor_path: "00029/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00030"
+  metadata_path: "00030/training data/metadata.tsv"
+  tensor_path: "00030/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00031"
+  metadata_path: "00031/training data/metadata.tsv"
+  tensor_path: "00031/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00032"
+  metadata_path: "00032/training data/metadata.tsv"
+  tensor_path: "00032/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00033"
+  metadata_path: "00033/training data/metadata.tsv"
+  tensor_path: "00033/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00034"
+  metadata_path: "00034/training data/metadata.tsv"
+  tensor_path: "00034/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00035"
+  metadata_path: "00035/training data/metadata.tsv"
+  tensor_path: "00035/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00036"
+  metadata_path: "00036/training data/metadata.tsv"
+  tensor_path: "00036/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00037"
+  metadata_path: "00037/training data/metadata.tsv"
+  tensor_path: "00037/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00038"
+  metadata_path: "00038/training data/metadata.tsv"
+  tensor_path: "00038/training data/tensors.tsv"
+}
+embeddings {
+  tensor_name: "training data:00039"
+  metadata_path: "00039/training data/metadata.tsv"
+  tensor_path: "00039/training data/tensors.tsv"
+}
