@@ -34,6 +34,7 @@ parser.add_argument('--train_ratio', type=float, default=train_ratio)
 parser.add_argument('--num_classes', type=int, default=num_classes)
 parser.add_argument('--max_epochs', type=int, default=max_epochs)
 parser.add_argument('--batch_size', type=int, default=batch_size)
+parser.add_argument('--model_name', type=int, default="model.pth")
 args = parser.parse_args()
 
 # Set the hyperparameters
@@ -43,7 +44,7 @@ max_epochs = args.max_epochs
 batch_size = args.batch_size
 
 # Format for running the script
-# python simple_train.py --train_ratio 0.8 --num_classes 2 --max_epochs 20 --batch_size 8
+# python simple_train.py --train_ratio 0.8 --num_classes 2 --max_epochs 20 --batch_size 8 --model_name model.pth
 
 # Save the hyperparameters to tensorboard
 writer.add_hparams(
@@ -175,7 +176,7 @@ writer.add_scalar('test accuracy', accuracy, epoch * len(train_dataloader) + i)
 #     o3d.visualization.draw_geometries([pcd])
 
 # Save the model
-torch.save(model.state_dict(), 'model_2.pth')
+torch.save(model.state_dict(), args.model_name)
 
 # Close Tensorboard writer
 writer.close()
